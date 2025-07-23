@@ -1,11 +1,13 @@
 import heroimage from "../images/hero-image.avif";
+import ofensala from "../images/Ofe-Nsala.jpg"
+import bg from "../images/oha.jpg"
 
 const Hero = () => {
   return (
     <section
       id="home"
       className="py-12 relative bg-cover bg-center h-screen flex items-center justify-center"
-      style={{ backgroundImage: `url(${heroimage})` }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
         
       <div className="absolute inset-0 bg-black opacity-70"></div>
