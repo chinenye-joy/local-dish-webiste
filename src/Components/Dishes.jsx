@@ -15,7 +15,7 @@ const Dishes = () => {
       <div className="container mx-auto px-6">
         <h1 className="text-3xl font-bold text-center ">Featuerd Dishes</h1>
         <motion.div
-          initial={{ opacity: 0, x: -100 }}
+          initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
           className="flex justify-center gap-6 my-8 flex-wrap"
