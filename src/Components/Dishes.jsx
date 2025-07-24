@@ -13,7 +13,7 @@ const Dishes = () => {
   return (
     <section id="menu" className="py-12  bg-gray-100">
       <div className="container mx-auto px-6">
-        <h1 className="text-3xl font-bold text-center ">Featuerd Dishes</h1>
+        <h1 className="text-3xl font-bold text-center ">Featured Dishes</h1>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -38,9 +38,7 @@ const Dishes = () => {
           <button onClick={() =>handleSelectedCategory('Vegetable') } className="py-2 px-3 bg-gray-200 rounded hover:bg-gray-300">
            Vegetable
           </button>
-           {/* <button onClick={() =>handleSelectedCategory('Ofe Nsala') } className="py-2 px-3 bg-gray-200 rounded hover:bg-gray-300">
-         Ofe Nsala
-          </button> */}
+          
         </motion.div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {filteredDishes.map((dish) => (
